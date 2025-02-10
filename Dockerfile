@@ -1,4 +1,4 @@
-FROM node:16-alpine AS build
+FROM node:18-alpine AS build
 WORKDIR /app
 # Copia los archivos de configuración 
 COPY package*.json ./
